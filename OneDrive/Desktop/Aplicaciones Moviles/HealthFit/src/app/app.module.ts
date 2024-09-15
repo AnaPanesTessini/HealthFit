@@ -8,9 +8,10 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { MenuComponent } from './components/menu/menu.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { BotonComponent } from './boton/boton.component';
+import { ModalComponent } from './components/modal/modal.component';
+
 @NgModule({
-  declarations: [AppComponent, MenuComponent,BotonComponent,FooterComponent],
+  declarations: [AppComponent, MenuComponent,FooterComponent,ModalComponent],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],
